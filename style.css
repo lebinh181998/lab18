@@ -1,0 +1,36 @@
+body::before {
+  display: block;
+  content: "";
+  margin-bottom: 56px;
+}
+.slide {
+  height: 90vh;
+}
+.carousel-inner div {
+  height: 100%;
+}
+.carousel-caption {
+  padding-bottom: 72px;
+}
+.bg-img1 {
+  background-color: #000;
+  background-size: cover;
+  background-image: url(images/240931533_374426854413760_6231283715469364320_n.jpg);
+}
+.bg-img2 {
+  background-color: #000;
+  background-size: cover;
+  background-image: url(images/307121905_442243811363598_6761825364378012459_n.jpg);
+}
+.bg-img3 {
+  background-color: #000;
+  background-size: cover;
+  background-image: url(images/331070591_619276393342596_7592637125851737360_n.jpg);
+}
+footer {
+  margin-top: 300px;
+  margin-bottom: 48px;
+}
+footer li:last-child {
+  list-style: none;
+}
